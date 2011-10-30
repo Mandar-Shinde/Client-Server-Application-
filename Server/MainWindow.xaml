@@ -1,0 +1,13 @@
+﻿<Window x:Class="svr.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Server Listner" Height="350" Width="525" Closing="Window_Closing">
+    <Grid>
+        <TextBox Height="22" HorizontalAlignment="Left" Margin="258,14,0,0" Name="textBox2" VerticalAlignment="Top" Width="82" Text="32323" />
+        <Button Content="Start Scanning" Height="24" HorizontalAlignment="Left" Margin="384,10,0,0" Name="button1" VerticalAlignment="Top" Width="107" Click="button1_Click" />
+        <RichTextBox Margin="0,47,0,0" Name="richTextBox1" VerticalScrollBarVisibility="Visible" />
+        <ComboBox Height="23" HorizontalAlignment="Left" Margin="77,12,0,0" Name="cobx_ip" VerticalAlignment="Top" Width="131" />
+        <Label Content="IP Address" Height="28" HorizontalAlignment="Left" Margin="12,10,0,0" Name="label1" VerticalAlignment="Top" />
+        <Label Content="Port" Height="28" HorizontalAlignment="Left" Margin="222,11,0,0" Name="label2" VerticalAlignment="Top" />
+    </Grid>
+</Window>
